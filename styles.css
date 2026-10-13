@@ -500,3 +500,20 @@ body.dialog-open { overflow: hidden; }
 .credential-art.art-python .code-sheet > b {
   line-height: 1.25;
 }
+
+/* Fix TELEMETRY / 02 label in the orbital project artwork */
+.orbital-label {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  right: 19px;
+  z-index: 2;
+  max-width: calc(100% - 38px);
+  box-sizing: border-box;
+  color: rgba(48, 65, 91, 0.69);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1.25px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
