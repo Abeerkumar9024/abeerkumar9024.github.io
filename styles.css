@@ -487,3 +487,16 @@ body.dialog-open { overflow: hidden; }
   .mobile-gesture-hint { display: block; margin: 0; color: #8c93a0; font-size: 7.5px; font-weight: 850; letter-spacing: .8px; line-height: 1.7; }
   .mobile-gesture-hint span { color: var(--coral); font-size: 12px; margin-left: 4px; }
 }
+/* Python certificate: keep code panel clear of score label */
+.credential-art.art-python .code-sheet {
+  top: 49px;
+  bottom: 34px;
+  padding: 8px 12px;
+  gap: 3px;
+}
+
+.credential-art.art-python .code-sheet > span,
+.credential-art.art-python .code-sheet > i,
+.credential-art.art-python .code-sheet > b {
+  line-height: 1.25;
+}
